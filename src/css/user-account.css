@@ -1,0 +1,38 @@
+
+body {
+  background: #f6f6f6;
+  color: #444;
+}
+
+.manage-account{
+ /* margin-bottom: -100px; */
+ padding-top: 100px;
+}
+
+.bg-header{
+    position: absolute;
+}
+ 
+.temporary-box-shadow {
+  box-shadow: 0 0.4rem 0.8rem 0 #E2EAF2;
+}
+
+button:focus {
+    outline: 0;
+    border-color: #fcb2e7;
+}
+.brand{
+  color: white;
+}
+@media (max-width: 768px) {
+
+  .brand{
+    color: rgb(68, 68, 68);
+    /* padding-right: 10px; */
+  }
+
+  .manage-account{
+    padding-top: 0px;
+  }
+}
+
